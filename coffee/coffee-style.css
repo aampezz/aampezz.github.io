@@ -1,0 +1,57 @@
+body{
+	font-family: Georgia, serif;
+	margin: 0;
+	padding-left: 0;
+}
+
+h1{
+	font-weight: bold;
+	color: #333;
+}
+
+h2{
+	font-weight: bold;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #230B03;
+}
+
+a:link {color:#dbc7a4;}      /* unvisited link */
+a:visited {color:#dbc7a4;}  /* visited link */
+a:hover {color:#dbc7a4;}  /* mouse over link */
+a:active {color:#dbc7a4;}  /* selected link */
+
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}
+
+.left-column{
+	float: left;
+	width: 30%;
+	text-align: center;
+	padding-left: 17%;
+	padding-right: 3%;
+}
+
+.right-column{
+	float: right;
+	width: 30%;
+	text-align: center;
+	padding-left: 3%;
+	padding-right: 17%;
+}
+
+footer{
+	text-align: center;
+	color: #dbc7a4;
+	background-color: #230B03;
+	clear: both;
+}
+
+.top-menu{
+	text-align: center;
+	color: #dbc7a4;
+	background-color: #230B03;
+}
+
