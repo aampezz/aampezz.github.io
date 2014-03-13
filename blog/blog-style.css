@@ -5,14 +5,49 @@ body{
 	font-size: 14px;
 }
 
+header{
+	position: relative;
+}
+
+.top-menu{
+	position: absolute; 
+	right: 20px;
+	bottom: 25px;
+	word-spacing: 20px;
+}
+
 h1{
 	font-weight: bold;
 	font-size: 11px;
+	margin: 5px 0 0 0;
 }
 
 h2{
 	text-transform: uppercase;
-	font-stretch: condensed;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 5px 0 5px 0;
+}
+
+aside{
+	float: left;
+	width: 22%;
+}
+
+aside ul{
+	padding: 0 0 0 20px;
+}
+
+aside li{
+		margin: 0 20px 10px 0;
+}
+
+.content{
+	width: 78%;
+	float: left;
+}
+
+p{
+	margin: 0 0 20px 0;
 }
 
 a:link {
@@ -30,6 +65,8 @@ ul{
 footer{
 	text-align: left;
 	font-weight: bold;
+	clear: both;
+	padding-left: 10px;
 }
 
 .top-menu{

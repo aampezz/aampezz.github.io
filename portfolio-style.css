@@ -1,0 +1,18 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	padding-left: 20px;
+	font-size: 16px;
+	background-color: #7DB599;
+	
+}
+
+a:link {color:##BE204A;}      /* unvisited link */
+a:visited {color:#BE204A;}  /* visited link */
+a:hover {color:#E0BE61;}  /* mouse over link */
+a:active {color:#E0BE61;}  /* selected link */
+
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}

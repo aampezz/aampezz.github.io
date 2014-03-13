@@ -11,9 +11,15 @@ h1{
 
 h2{
 	font-weight: bold;
+	margin-bottom: 2px;
+	margin-top: 20px;
 	font-size: 16px;
 	font-family: Arial, Helvetica, sans-serif;
 	color: #230B03;
+}
+
+p{
+	margin-top: 0;
 }
 
 a:link {color:#dbc7a4;}      /* unvisited link */
@@ -25,6 +31,28 @@ a:link {text-decoration:none;}
 a:visited {text-decoration:none;}
 a:hover {text-decoration:underline;}
 a:active {text-decoration:underline;}
+
+header{
+	background-image: url("beans.jpg");
+	background-color: #000;
+	background-repeat: no-repeat; 
+	background-position: fixed center;
+	height: 280px;
+}
+
+.logo{
+	display: block;
+	margin: auto;
+}
+
+.top-menu{
+	text-align: center;
+	color: #dbc7a4;
+	background-color: #230B03;
+	padding: 6px 0 6px 0;
+	margin-top: 50px;
+	word-spacing: 25px;
+}
 
 .left-column{
 	float: left;
@@ -46,12 +74,9 @@ footer{
 	text-align: center;
 	color: #dbc7a4;
 	background-color: #230B03;
+	padding: 20px 0 20px 0;
 	clear: both;
 }
 
-.top-menu{
-	text-align: center;
-	color: #dbc7a4;
-	background-color: #230B03;
-}
+
 
