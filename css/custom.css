@@ -1,0 +1,317 @@
+@font-face {
+  font-family: 'SocialFoundicons';
+  src: url('fonts/social_foundicons.eot');
+  src: url('fonts/social_foundicons.eot?#iefix') format('embedded-opentype'),
+       url('fonts/social_foundicons.woff') format('woff'),
+       url('fonts/social_foundicons.ttf') format('truetype'),
+       url('fonts/social_foundicons.svg#SocialFoundicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+ 
+.social.foundicon {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+ 
+.social.foundicon:before {
+  font-family: "SocialFoundicons";
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+}
+
+.social.foundicon-twitter, .social.foundicon-linkedin, .social.foundicon-dribbble, .social.foundicon-github, .social.foundicon-pinterest {
+   font-size: 1.75em;
+   white-space: nowrap;
+}
+
+@media only screen and (min-width: 40.063em) {
+    .top-bar-section li.active:not(.has-form) a:not(.button) {
+      padding: 0 15px;
+      line-height: 45px;
+      color: white;
+      background: #081617; 
+  }
+  .top-bar-section li.active:not(.has-form) a:not(.button):hover {
+        color: #dcb245;
+        background: #081617; }
+ }
+
+
+.top-bar {
+	background-color: #081617;
+	font-family: 'Roboto', sans-serif;
+	height:6em;
+}
+
+.title-area img{
+	margin-left: 4em;
+	margin-top: 1.35em;
+}
+
+h1{
+	font-family: 'Roboto Slab', serif; 
+	font-weight: 100;
+	line-height: .875em;
+}
+
+.top-bar h1{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+h2{
+	font-family: 'Roboto', sans-serif; 
+	font-weight: 100;
+}
+
+p{
+	font-family: 'Roboto', sans-serif; 
+	font-weight: 100;
+}
+
+.large-12.columns {
+	padding:0;
+}
+
+.large-4.columns {
+	padding:0 2.5em 1em 0;
+	margin:0;
+}
+
+.top-bar-section ul li > a{
+	font-family: 'Roboto', sans-serif; 
+	font-weight: 100;
+	font-size: 1.5em;	
+}
+
+.top-bar-section {
+	margin-right: 4em;
+	margin-top: 1.35em;
+}
+
+.inline-list.right li > a{
+	font-family: 'Roboto', sans-serif; 
+	font-weight: 100;
+	color: #e0c04c;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button){
+	background-color: #081617;
+}
+
+.intro {
+	width:100%;
+	margin:0;
+	margin-top: 3em;
+	padding:7em 6em 4em 4em;
+	background-color: #bd214a;
+}
+
+
+.intro a:link {color:#dcb245;}      /* unvisited link */
+.intro a:visited {color:#dcb245;}  /* visited link */
+.intro a:hover {color:#d6a629;}  /* mouse over link */
+.intro a:active {color:#d6a629;}  /* selected link */
+
+.intro a:link {text-decoration:none;}
+.intro a:visited {text-decoration:none;}
+.intro a:hover {text-decoration:none;}
+.intro a:active {text-decoration:none;}
+
+
+
+.about {
+	width:100%;
+	margin:0;
+	padding:1em 4em 4em 4em;
+	background-color: #dcb245;
+}
+
+#jumpto-work{
+	background-color: #51ae7a;
+}
+
+.work {
+	color: white;
+	width:100%;
+	margin:0;
+	padding:1em 4em 4em 4em;
+}
+
+.work h1 {
+	font-size:5em;
+	color: white;
+	padding-bottom: .35em;
+	padding-top: .5em;
+}
+
+.work h4 {
+	color: white;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 100;
+	padding: .5em 0 0 0;
+	line-height: .95em;
+}
+
+.work a:link {color:#dcb245;}      /* unvisited link */
+.work a:visited {color:#dcb245;}  /* visited link */
+.work a:hover {color:#d6a629;}  /* mouse over link */
+.work a:active {color:#d6a629;}  /* selected link */
+
+.work a:link {font-weight:bold;}
+.work a:visited {font-weight:bold;}
+.work a:hover {font-weight:bold;}
+.work a:active {font-weight:bold;}
+
+
+.work h5 {
+	color: #b9dfca;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.intro h1 {
+	font-size:5em;
+	color: white;
+}
+
+.intro h2 {
+	color: white;
+	font-size: 2em;
+}
+
+.about h1 {
+	font-size:5em;
+	color: white;
+	padding-top: .5em;
+}
+
+.about h2 {
+	color: white;
+	font-size: 2em;
+}
+
+.about h4 {
+	font-size: 1.5em;
+	line-height: 1em;
+	padding:0;
+	margin:0;
+	word-spacing: .5em;
+
+}
+
+.about a:link {color:#bd214a;}      /* unvisited link */
+.about a:visited {color:#bd214a;}  /* visited link */
+.about a:hover {color:#921939;}  /* mouse over link */
+.about a:active {color:#921939;}  /* selected link */
+
+.about a:link {text-decoration:none;}
+.about a:visited {text-decoration:none;}
+.about a:hover {text-decoration:none;}
+.about a:active {text-decoration:none;}
+
+.row{
+	margin-left: 0;
+	width:100%;
+	max-width: 250em;
+}
+
+footer.row{
+	background-color: #081617;
+	color:#515b5c;
+	padding: .75em 0 0 4em;
+}
+
+@media only screen and (max-width: 40em) {
+	.title-area img{
+		margin-left: 2em;
+	}
+
+	.intro { 
+		margin-top: 4em;
+		padding:4em 2em 2em 2em;
+	}
+
+	.intro h1 { 
+		font-size: 3em; 
+	}
+
+	.intro h2 { 
+		font-size: 1.25em; 
+	}
+
+	.intro h4 { 
+		font-size: 1em; 
+	}
+
+	.about { 
+		padding:.25em 2em 2em 2em;
+	}
+
+	.about h1 { 
+		font-size: 3em; 
+	}
+
+	.about h2 { 
+		font-size: 1.25em; 
+	}
+
+	.about h4 { 
+		font-size: 1em; 
+	}
+
+	.work { 
+		padding:.25em 2em 2em 2em;
+	}
+
+	.work h1 { 
+		font-size: 3em; 
+	}
+
+	.work h2 { 
+		font-size: 1.25em; 
+	}
+
+	.work h4 { 
+		font-size: 1em; 
+	}
+}
+
+#zydeco{
+	background-color: #dcb245;
+	color:white;
+	margin-top: 5em;
+	padding: 4em;
+}
+
+#zydeco h1 {
+	color: white;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 100;
+	font-size: 3em;
+}
+
+#zydeco h2 {
+	color: #e5c885;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 1.75em;
+	margin-bottom: .5em;
+}
+
+#zydeco p {
+	font-size: 1em;
+	margin-bottom: .1em;
+
+}
+
+
