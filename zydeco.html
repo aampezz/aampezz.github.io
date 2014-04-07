@@ -9,32 +9,58 @@
     <link rel="stylesheet" href="css/custom.css" />
     <link rel="stylesheet" href="css/social_foundicons.css" />
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100|Roboto+Slab:400,300,100' rel='stylesheet' type='text/css'>
+    
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/foundation/foundation.js"></script>
+    <script src="js/foundation/foundation.topbar.js"></script>
     <script src="js/vendor/modernizr.js"></script>
+
   </head>
   <body>
         <!-- Navigation -->
   <div class="fixed">
-      <nav class="top-bar" data-topbar>
+      <nav class="top-bar" data-topbar data-options="is_hover: false">
         <ul class="title-area">
           <!-- Title Area -->
           <a href="index.html"><img src="./img/AA_logo.png" alt="AA" height="50px" width="50px"/></a>
-          <!--<li class="toggle-topbar menu-icon"><a href="#"></a></li>-->
-
-
-
-          <!-- <section class="top-bar-section">
-
-          <ul class="right">
-            <li class="active"><a href="#">Zydeco</a></li>
-            <li class="active"><a href="#">Inspired Teaching</a></li>
-            <li class="active"><a href="#">SIGGRAPH</a></li>
-            <li class="active"><a href="#">Synod</a></li>
-            <li class="active"><a href="#">Kid's Eye View</a></li>
-            <li class="active"><a href="#">Q30</a></li>
+          <li class="toggle-topbar menu-icon"><a href></a></li>
+        </ul>
+     
+        <section class="top-bar-section" style="left: 0%;">
+          <!-- Right Nav Section -->
+          <ul class="right show-for-large-only">
+            <li class="active"><a href="zydeco.html">Zydeco</a></li>
+            <li class="active"><a href="cit.html">Inspired Teaching</a></li>
+            <li class="active"><a href="crowdfynd.html">Crowdfynd</a></li>
+            <li class="active"><a href="q30.html">Q30</a></li>
+            <li class="active"><a href="kidseyeview.html">Kid's Eye View</a></li>
+            <li class="active"><a href="synod.html">Synod</a></li>
           </ul>
-        </section>-->
-  
+
+          <ul class="right show-for-medium-only">
+            <li class="has-dropdown">
+              <a href="#">Projects</a>
+              <ul class="dropdown">
+                <li><a href="zydeco.html">Zydeco</a></li>
+                <li><a href="cit.html">Inspired Teaching</a></li>
+                <li><a href="crowdfynd.html">Crowdfynd</a></li>
+                <li><a href="q30.html">Q30</a></li>
+                <li><a href="kidseyeview.html">Kid's Eye View</a></li>
+                <li><a href="synod.html">Synod</a></li>
+                </li>
+               </ul>
+
+           <ul class="right show-for-small-only">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="active"><a href="zydeco.html">Zydeco iPad App</a></li>
+            <li class="active"><a href="cit.html">Inspired Teaching Strategy</a></li>
+            <li class="active"><a href="crowdfynd.html">Crowdfynd Mobile App</a></li>
+            <li class="active"><a href="q30.html">Q's 30th Anniversary Animation</a></li>
+            <li class="active"><a href="kidseyeview.html">Kid's Eye View Mobile App</a></li>
+            <li class="active"><a href="synod.html">Synod Branding</a></li>
+          </ul>
+
+        </section>
       </nav>
   </div>
   <!-- End Top Bar -->
@@ -62,15 +88,7 @@
 
     <div class="row">
        <div class="large-8 columns">
-      <img src="./img/800x600/zydeco_v1-1_big.png" alt="Zydeco"/><br>
-      <h3>V1.1, 2011: Data Review Screen (not designed by me)</h3><br>
-      <img src="./img/800x600/whiteboard.png" alt="Zydeco"/><br>
-      <h3>V1.2, 2012: Whiteboarding</h3><br>
-      <img src="./img/800x600/zydeco_v1wire_big.png" alt="Zydeco"/><br>
-      <h3>V1.2, 2012: Data Review Screen Wireframe</h3><br>
-      <img src="./img/800x600/zydeco_v1-2_big.png" alt="Zydeco"/><br>
-      <h3>V1.2, 2013: Data Review Screen</h3><br>
-      <img src="./img/800x600/zydeco_v2_big.png" alt="Zydeco"/><br>
+        <img src="./img/800x600/zydeco_v2_big.png" alt="Zydeco"/><br>
       <h3>V2, due May 2014: Data Review Screen</h3><br>
       <img src="./img/800x600/zydeco_overview_big.png" alt="Zydeco"/><br>
       <h3>V2, due May 2014: Investigation Overview Screen</h3><br>
@@ -78,6 +96,18 @@
       <h3>V2, due May 2014: Hypothesis Screen</h3><br>
       <img src="./img/800x600/zydeco_data_big.png" alt="Zydeco"/><br>
       <h3>V2, due May 2014: Data Detail Screen</h3>
+      <img src="./img/800x600/zydeco_v1-2_big.png" alt="Zydeco"/><br>
+      <h3>V1.2, 2013: Data Review Screen</h3><br>
+      <img src="./img/800x600/zydeco_v1wire_big.png" alt="Zydeco"/><br>
+      <h3>V1.2, 2012: Data Review Screen Wireframe</h3><br>
+      <img src="./img/800x600/whiteboard.png" alt="Zydeco"/><br>
+      <h3>V1.2, 2012: Whiteboarding</h3><br>
+      <img src="./img/800x600/zydeco_v1-1_big.png" alt="Zydeco"/><br>
+      <h3>V1.1, 2011: Data Review Screen (not designed by me)</h3><br>
+  
+      
+      
+     
       </div>
      </div>  
 </div>
@@ -94,7 +124,9 @@
       </div>
   </div>
   </footer>
-    
+     <script>
+    $(document).foundation();
+  </script>  
   <script type="text/javascript" src="js/anchor.js"></script>  
   </body>
 </html>

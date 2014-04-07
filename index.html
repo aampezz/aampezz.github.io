@@ -9,25 +9,40 @@
     <link rel="stylesheet" href="css/custom.css" />
     <link rel="stylesheet" href="css/social_foundicons.css" />
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100|Roboto+Slab:400,300,100' rel='stylesheet' type='text/css'>
+    
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/foundation/foundation.js"></script>
+    <script src="js/foundation/foundation.topbar.js"></script>
     <script src="js/vendor/modernizr.js"></script>
+
   </head>
   <body>
         <!-- Navigation -->
   <div class="fixed">
-      <nav class="top-bar" data-topbar>
+      <nav class="top-bar" data-topbar data-options="is_hover: false">
         <ul class="title-area">
           <!-- Title Area -->
           <a href="#jumpto-intro" id='jumpup-intro'><img src="./img/AA_logo.png" alt="AA" height="50px" width="50px"/></a>
-          <!--<li class="toggle-topbar menu-icon"><a href="#"></a></li>-->
+          <li class="toggle-topbar menu-icon"><a href></a></li>
         </ul>
      
-        <section class="top-bar-section">
+        <section class="top-bar-section" style="left: 0%;">
           <!-- Right Nav Section -->
-          <ul class="right">
+          <ul class="right show-for-medium-up">
             <li class="active"><a href="#jumpto-about" id="jumpdown-about">About</a></li>
             <li class="active"><a href="#jumpto-work" id="jumpdown-work">Work</a></li>
           </ul>
+
+           <ul class="right hide-for-medium-up">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="active"><a href="zydeco.html">Zydeco iPad App</a></li>
+            <li class="active"><a href="cit.html">Inspired Teaching Strategy</a></li>
+            <li class="active"><a href="crowdfynd.html">Crowdfynd Mobile App</a></li>
+            <li class="active"><a href="q30.html">Q's 30th Anniversary Animation</a></li>
+            <li class="active"><a href="kidseyeview.html">Kid's Eye View Mobile App</a></li>
+            <li class="active"><a href="synod.html">Synod Branding</a></li>
+          </ul>
+
         </section>
       </nav>
   </div>
@@ -40,10 +55,7 @@
       <section class='intro'>
         <h1>Keep it simple.</h1>
         <h2>That’s my guiding design principle. I create user experiences that delight, but don’t overcomplicate. Nine out of ten times, the simplest solution is the most effective.</h2>
-        <br>
-        <h4>
-          <a href="#jumpto-work" id="jumpdown-work2">That's cool, but I just want to see what you can do.</a>
-        </h4>
+        
      </section>
     </div>
   </div>
@@ -57,7 +69,7 @@
       <section class='about'>
         <h1>A bit about me</h1>
         <h2>Displaced Michigander in Chicago. Lover of learning, faraway traveling, Netflix watching, letterpress printing, Dave Eggers reading, ed tech pondering, and UMich rooting. <br>
-        <!--Expertise in the strategy and design of: brand identity, marketing collateral, responsive websites, user experience, and mobile apps.-->
+        
         </h2>
         <br>
         <h4><a href="https://twitter.com/AlissaAmpezzan"><i class="social foundicon-twitter"></i></a>
@@ -77,7 +89,7 @@
     <section class='work'>
       <h1>Some of my work</h1>
 
-      <div class="large-4 columns">
+      <div class="medium-6 large-4 columns">
         <a href="zydeco.html"><img src="./img/400x300/zy_overview.png" alt="Zydeco"/></a>
         <h4>Zydeco iPad App</h4>
         <h5>UI/UX Strategy and Design</h5>
@@ -85,7 +97,7 @@
         <a href="zydeco.html">More</a></p>
       </div>
     
-      <div class="large-4 columns">
+      <div class="medium-6 large-4 columns">
         <a href="cit.html"><img src="./img/400x300/cit.png" alt="Center for Inspired Teaching"/></a>
         <h4>Inspired Teaching Strategy</h4>
         <h5>Customer Journey Mapping</h5>
@@ -93,7 +105,7 @@
         <a href="cit.html">More</a></p>
       </div>
       
-      <div class="large-4 columns">
+      <div class="medium-6 large-4 columns">
         <a href="crowdfynd.html"><img src="./img/400x300/crowdfynd.png" alt="Crowdfynd"/></a>
         <h4>Crowdfynd Mobile App</h4>
         <h5>UX Design</h5>
@@ -101,7 +113,7 @@
         <a href="crowdfynd.html">More</a></p>
       </div>
 
-      <div class="large-4 columns">
+      <div class="medium-6 large-4 columns">
         <a href="q30.html"><img src="./img/400x300/q30.png" alt="Q30"/></a>
         <h4>Q's 30th Anniversary Animation</h4>
         <h5>Storyboard, Art Direction, Illustration</h5>
@@ -109,7 +121,7 @@
         <a href="q30.html">More</a></p>
       </div>
       
-      <div class="large-4 columns">
+      <div class="medium-6 large-4 columns">
         <a href="kidseyeview.html"><img src="./img/400x300/kidseyeview.png" alt="Kid's Eye View"/></a>
         <h4>Kid's Eye View Mobile App</h4>
         <h5>UX Research and Design</h5>
@@ -117,7 +129,7 @@
         <a href="kidseyeview.html">More</a></p>
       </div>
 
-       <div class="large-4 columns">
+       <div class="medium-6 large-4 columns">
         <a href="synod.html"><img src="./img/400x300/synod.png" alt="Synod"/></a>
         <h4>Synod Branding</h4>
         <h5>Brand Definition: Messaging and Design</h5>
@@ -142,7 +154,10 @@
       </div>
   </div>
   </footer>
-    
+  
+    <script>
+    $(document).foundation();
+  </script>  
   <script type="text/javascript" src="js/anchor.js"></script>  
   </body>
 </html>
