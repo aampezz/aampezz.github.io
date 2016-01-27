@@ -114,7 +114,7 @@ p{
 	margin:0;
 	margin-top: -3em;
 	padding:7em 6em 4em 4em;
-	background-color: #bd214a;
+	background-color: #081617;
 }
 
 
@@ -146,12 +146,6 @@ p{
 	max-width: 250em;
 }
 
-footer.row{
-	background-color: #081617;
-	color:#515b5c;
-	padding: .75em 0 0 4em;
-}
-
 
 @media only screen and (max-width: 40em) {
 	.title-area img{
@@ -175,34 +169,6 @@ footer.row{
 		font-size: 1em; 
 	}
 
-	
-
-	footer .row{
-		padding-left: 0;
-	}
-
-
-
-	.top-bar .toggle-topbar.menu-icon {
-      right: 40px;
-      top: 50%;
-      margin-top: -5px;
-      padding-left: 40px; }
-
-    .top-bar .toggle-topbar.menu-icon a {
-        height: 40px;
-        line-height: 33px;
-        padding: 0;
-        padding-right: 25px;
-        color: white;
-        position: relative; }
-
-  .top-bar.expanded {
-    height: auto;
-    background: #081617; 
-	margin-bottom:0;
-}
-    
 
 
 
