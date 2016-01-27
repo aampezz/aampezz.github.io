@@ -37,17 +37,17 @@
     .top-bar-section li.active:not(.has-form) a:not(.button) {
       padding: 0 15px;
       line-height: 45px;
-      color: white;
-      background: #081617; 
+      color: black;
+      background: #ffffff; 
   }
   .top-bar-section li.active:not(.has-form) a:not(.button):hover {
         color: #dcb245;
-        background: #081617; }
+        background: #ffffff; }
  }
 
 
 .top-bar {
-	background-color: #081617;
+	background-color: #ffffff;
 	font-family: 'Roboto', sans-serif;
 	height:6em;
 }
@@ -106,15 +106,15 @@ p{
 }
 
 .top-bar-section li:not(.has-form) a:not(.button){
-	background-color: #081617;
+	background-color: #ffffff;
 }
 
 .intro {
 	width:100%;
 	margin:0;
-	margin-top: -3em;
+	margin-top: 3em;
 	padding:7em 6em 4em 4em;
-	background-color: #081617;
+	background-color: #ffffff;
 }
 
 
@@ -131,11 +131,11 @@ p{
 
 .intro h1 {
 	font-size:5em;
-	color: white;
+	color: black;
 }
 
 .intro h2 {
-	color: white;
+	color: black;
 	font-size: 2em;
 }
 
